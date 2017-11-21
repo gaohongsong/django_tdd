@@ -10,3 +10,7 @@
 4. setUp/tearDown
 5. 启动命令及参数
 6. 测试配置（加速）
+7. unittest基本用法及进阶
+  - loader
+  - runner
+  - suite

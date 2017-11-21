@@ -98,4 +98,6 @@ ENV/
 /site
 
 # mypy
+
+.db
 .mypy_cache/

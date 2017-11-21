@@ -11,8 +11,8 @@ logger = logging.getLogger('root')
 
 def home(request):
     user = getattr(request, 'user', None)
-    if user and user.username == '836324475':
-        return JsonResponse({'result': True, 'message': 'success', 'code': 0, 'data': '836324475'})
+    if user and user.username == '12345':
+        return JsonResponse({'result': True, 'message': 'success', 'code': 0, 'data': '1234'})
     return redirect('/api/get_info/')
 
 

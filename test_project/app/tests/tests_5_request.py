@@ -14,7 +14,7 @@ class RequestTestCase(TestCase):
         """
 
         self.factory = RequestFactory()
-        self.uin = '836324475'
+        self.uin = '12345'
         self.skey = 'test'
 
         self.user = User.objects.create_user(username=self.uin)

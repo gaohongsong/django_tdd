@@ -57,7 +57,7 @@ class ClientTestCase(TestCase):
         self.assertEqual(resp.status_code, 200)
 
         # def test_qy_user_info(self):
-        #     response = self.c.get('/bk_mobile/mycenter/qy_user_info/')
+        #     response = self.c.get('/apiy_user_info/')
         #     print response
         #     self.assertRedirects(response)
 
